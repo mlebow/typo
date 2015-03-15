@@ -61,6 +61,12 @@ class Article < Content
 
   setting :password,                   :string, ''
 
+  #def merge_with(other_article_id)
+   # @articleB = Article.find(other_article_id)
+    #self.content.add(@articleB.content)
+  #end
+
+
   def initialize(*args)
     super
     # Yes, this is weird - PDC
